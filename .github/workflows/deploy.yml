@@ -34,6 +34,9 @@ jobs:
       - name: Build static export
         run: npm run build
 
+      - name: Copy custom domain file
+        run: cp CNAME out/CNAME
+
       - name: Add Pages marker
         run: touch out/.nojekyll
 
