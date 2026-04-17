@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Analytics from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/next";
 import { Bebas_Neue, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Damodar Yadav | AI/ML Engineer Portfolio",
   description:
     "Portfolio of Damodar Yadav featuring AI/ML, deep learning, data science, SQL, and data engineering projects with code, data, media, and contact details.",
-  metadataBase: new URL("https://damodar-portfolio.vercel.app"),
+  metadataBase: new URL("https://damodar.me"),
   openGraph: {
     title: "Damodar Yadav | AI/ML Engineer Portfolio",
     description:

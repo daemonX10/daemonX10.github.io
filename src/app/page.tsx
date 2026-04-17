@@ -303,7 +303,7 @@ export default async function Home() {
             <a className="action-btn ghost" href={profile.links.resume} target="_blank" rel="noreferrer">
               View Resume
             </a>
-            <a className="action-btn ghost" href="/resume/download">
+            <a className="action-btn ghost" href={profile.links.resumeDownload} target="_blank" rel="noreferrer">
               Download Resume
             </a>
             {primarySocialOrder.map((item) => (

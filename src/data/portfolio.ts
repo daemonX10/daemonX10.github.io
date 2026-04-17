@@ -25,6 +25,8 @@ export const profile = {
   links: {
     resume:
       "https://drive.google.com/file/d/1OIE9ZRhk-WUAHaGofsJiqILq6lrHY1ih/view?usp=sharing",
+    resumeDownload:
+      "https://drive.google.com/uc?export=download&id=1OIE9ZRhk-WUAHaGofsJiqILq6lrHY1ih",
     linkedin: "https://www.linkedin.com/in/damodar-yadav-690425177/",
     github: "https://github.com/daemonX10",
     leetcode: "https://leetcode.com/u/damodarryadav/",
